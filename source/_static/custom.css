@@ -1,0 +1,44 @@
+/* 
+    override table no-wrap 
+*/
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+
+/*
+    Collapsable content
+*/
+
+.toggle .header {
+    display: block;
+    clear: both;
+}
+
+.toggle .header:after {
+    content: " ▼";
+}
+
+.toggle .header.open:after {
+    content: " ▲";
+}
+
+
+/*
+    Custom colors
+*/
+
+.red {
+    color: #F25F5C;
+}
+
+.green {
+    color: #8FC93A;
+}
+
+.lightblue {
+    color: #0A7175;
+}
+
+.darkblue {
+    color: #102542;
+}
